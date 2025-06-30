@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#backdrop {
+  /* background-color: var(--accent-6); */
+  background: linear-gradient(
+    180deg,
+    rgba(14, 0, 212, 1) 0%,
+    rgba(31, 75, 255, 1) 50%,
+    rgba(0, 123, 255, 1) 100%
+  );
+}
+
+#page-bounds {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: color(display-p3 0.067 0.067 0.074);
+}
+
+.margin-bottom {
+  margin-bottom: 12px;
+}
+
+.transform-animate {
+  transition: 0.35s ease-out;
+}
+
+.full-opacity-animate {
+  transition: 0.35s ease-out;
+  opacity: 0;
+}
+
+.no-opacity-animate {
+  transition: 0.35s ease-out;
+  opacity: 1;
+}

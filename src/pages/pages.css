@@ -1,0 +1,14 @@
+.banner {
+  height: 300px;
+}
+
+.banner-text {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.section {
+  width: 90%;
+  margin: 24px auto;
+}
