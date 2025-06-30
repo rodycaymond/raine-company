@@ -28,7 +28,10 @@ export const Home: React.FC = () => {
           alignItems: "center",
         }}
       >
-        <img src="/logo_no_bg.png" style={{ maxWidth: "250px" }} />
+        <img
+          src="/raine-company/logo_no_bg.png"
+          style={{ maxWidth: "250px" }}
+        />
       </Box>
       <Link href="tel:615-691-1884" style={{ color: "white" }}>
         <Heading as="h6" align="center">

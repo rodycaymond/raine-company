@@ -6,7 +6,10 @@ export const About: React.FC = () => {
       <Heading align="center">Meet the Family</Heading>
       <Box className="section">
         <Flex direction="row" wrap="wrap" justify="center" align="center">
-          <img src="/clarks_tall.JPG" style={{ maxWidth: "380px" }} />
+          <img
+            src="/raine-company/clarks_tall.JPG"
+            style={{ maxWidth: "380px" }}
+          />
           <Box style={{ textAlign: "center", margin: "18px" }}>
             We are the Clark family, and proud owners of Raine Company. Our
             beautiful children from front left to right are Jayden, Liam, and
