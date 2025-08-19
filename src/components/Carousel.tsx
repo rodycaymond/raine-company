@@ -44,9 +44,15 @@ export const Carousel: React.FC<CarouselProps> = ({ items }) => {
                     : "no-opacity-animate"
                 }`}
               >
-                <Text align="center">{so.title}</Text>
+                <Flex justify="center">
+                  <Text align="center">{so.title}</Text>
+                </Flex>
                 <AspectRatio.Root ratio={16 / 9}>
-                  <img src={so.image} style={{ maxWidth: "100%" }} />
+                  <img
+                    src={so.image}
+                    style={{ maxWidth: "100%" }}
+                    alt={so.alt}
+                  />
                 </AspectRatio.Root>
               </Box>
             );

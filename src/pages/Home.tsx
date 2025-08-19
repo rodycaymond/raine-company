@@ -70,8 +70,8 @@ export const Home: React.FC = () => {
       <Separator color="gray" style={{ width: "90%", margin: "18px auto" }} />
       <Box className="section">
         <Heading as="h4" align="center" className="margin-bottom">
-          <RulerSquareIcon style={{ marginRight: "8px" }} color="blue" />{" "}
-          Gallery
+          <RulerSquareIcon style={{ marginRight: "8px" }} color="blue" /> Handy
+          Work
         </Heading>
         <Carousel items={handyWork} />
       </Box>
