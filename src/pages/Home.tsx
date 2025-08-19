@@ -9,7 +9,7 @@ import {
 } from "@radix-ui/themes";
 import "./pages.css";
 import { Carousel } from "../components/Carousel";
-import { handyWork, services } from "../constants/ constants";
+import { handyWork } from "../constants/ constants";
 import {
   RulerSquareIcon,
   PersonIcon,
@@ -53,18 +53,18 @@ export const Home: React.FC = () => {
             margin: "auto",
           }}
         >
-          {services.map((s) => {
-            return (
-              <>
-                <Box>
-                  <strong style={{ textDecoration: "underline" }}>
-                    {s.title}
-                  </strong>
-                </Box>
-                <Box>{s.description}</Box>
-              </>
-            );
-          })}
+          <Box style={{ textAlign: "center" }}>
+            Our business specializes in delivering high-quality residential and
+            commercial services, offering a wide range of interior and exterior
+            solutions. From expert painting, flooring, trim work, and custom
+            built-ins to skilled drywall repairs and interior carpentry, we
+            bring precision and craftsmanship to every project. We also handle
+            larger-scale outdoor needs, including excavation, brush cutting,
+            land development, drainage systems, and utility ditching. Whether
+            it’s transforming a living space or preparing land for construction,
+            our team is dedicated to providing reliable, professional service
+            with attention to detail at every step.
+          </Box>
         </Box>
       </Box>
       <Separator color="gray" style={{ width: "90%", margin: "18px auto" }} />
