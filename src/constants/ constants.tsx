@@ -8,9 +8,9 @@ export interface HandyWork {
 export const handyWork: HandyWork[] = [
   {
     id: 1,
-    title: "Exterior/Interior Paint",
+    title: "New Construction And Remodels",
     image: "/raine-company/baker_building.JPG",
-    alt: "concrete building with updated exterior paint",
+    alt: "concrete building with updated exterior paint, and new trusses",
   },
   {
     id: 2,
