@@ -2,32 +2,39 @@ export interface HandyWork {
   id: number;
   title: string;
   image: string;
+  alt: string;
 }
 
 export const handyWork: HandyWork[] = [
   {
     id: 1,
-    title: "Landscaping",
-    image:
-      "https://static.homeguide.com/assets/images/content/homeguide-landscaping-with-edging-plants-outdoor-lighting.jpg",
+    title: "Exterior/Interior Paint",
+    image: "/raine-company/baker_building.JPG",
+    alt: "concrete building with updated exterior paint",
   },
   {
     id: 2,
-    title: "Construction",
-    image:
-      "https://d4c5gb8slvq7w.cloudfront.net/eyJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjcwMCwiaGVpZ2h0Ijo0MjB9fSwiYnVja2V0IjoiZmluZWhvbWVidWlsZGluZy5zMy50YXVudG9uY2xvdWQuY29tIiwia2V5IjoiYXBwXC91cGxvYWRzXC8yMDE4XC8wMlwvMjcyMDIyNTlcLzAyMTI3NDA2OERlY2tfSm9pc3RzLTcwMHg0MjAuanBnIn0=",
+    title: "Pressure Washing",
+    image: "/raine-company/employee_pressure_washing.JPG",
+    alt: "pressure washing services",
   },
   {
     id: 3,
-    title: "Paint",
-    image:
-      "https://handymanconnection.com/wp-content/uploads/2023/03/interior-painting.png",
+    title: "Decks and Coverings",
+    image: "/raine-company/porch_cover.JPG",
+    alt: "wooden deck with overhang covering",
   },
   {
     id: 4,
-    title: "Trim",
-    image:
-      "https://sustainmycrafthabit.com/wp-content/uploads/2022/06/How-to-Trim-a-Window-5312.jpg.webp",
+    title: "Lean-To's and Hardened Cover Structures",
+    image: "/raine-company/red_overhang.JPG",
+    alt: " a lean-to with red painted tin roof covering and solid timber framework",
+  },
+  {
+    id: 5,
+    title: "Excavation",
+    image: "/raine-company/excavator.JPG",
+    alt: "an excavator with the Rain Company Logo",
   },
 ] as const;
 
