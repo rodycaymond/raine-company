@@ -28,9 +28,9 @@ export const About: React.FC = () => {
             pride in the work we do and how far we have come.
             <br />
             We work for you like we would work for ourselves, quality and
-            craftsmanship in mind. If you're looking for some home rennovations
-            that truly feel like home, please give us a call so we can help your
-            dream projects come true!
+            craftsmanship in mind. If you're looking for new construction or
+            home rennovations that truly feel like home, please give us a call
+            so we can help your dream projects come true!
             <br />
             <br />
             From our Family to Yours,
